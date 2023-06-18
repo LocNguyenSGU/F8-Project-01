@@ -36,6 +36,9 @@ a {
    text-align: center;
    color: #FFFFFF;
 }
+.btn:hover {
+   opacity: 0.9;
+}
 
 /* ======== header ========= */
 .header {
@@ -158,15 +161,92 @@ a {
    text-align: right;
    color: #7D8589;
 }
+
 .client .logo-banner {
    display: flex;
    align-items: center;
    margin-top: 70px;
 }
+
 .client .logo-banner img {
    padding: 31px 41px 22px;
    gap: 20px;
 }
+
 .client .logo-banner img:hover {
    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+   border-radius: 12px;
+}
+
+/* ======== Guides ========= */
+.guide {
+   margin-top: 40px;
+}
+
+.guide .row {
+   padding-top: 79px;
+}
+
+.guide .sub-title {
+   position: relative;
+   font-weight: 600;
+   font-size: 3.5rem;
+   line-height: 1;
+   text-align: center;
+   color: #000339;
+}
+
+.guide .sub-title::before {
+   top: -10px;
+   position: absolute;
+   content: "";
+   width: 41px;
+   height: 4px;
+   background: #000339;
+   border-radius: 12px;
+   left: 50%;
+   display: inline-block;
+   transform: translateX(-50%);
+}
+
+.guide .desc {
+   width: 460px;
+   font-weight: 400;
+   font-size: 1.6rem;
+   line-height: 1.88;
+   text-align: center;
+   color: #5A6473;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+
+.guide .list-guide {
+   margin-top: 70px;
+   display: flex;
+   justify-content: center;
+}
+
+.guide .guide-item {
+   margin: 0 70px;
+   text-align: center;
+}
+
+.guide .list-guide .title {
+   margin-top: 26px;
+   font-weight: 500;
+   font-size: 2rem;
+   line-height: 1.1;
+   color: #3B3C45;
+}
+.guide .guide-item .link {
+   display: inline-block;
+   padding-top: 10px;
+}
+.guide .guide-item .arrow {
+   padding-left: 8px;
+}
+.guide-btn {
+   margin-top: 48px;
+   display: flex;
+   justify-content: center;
 }
