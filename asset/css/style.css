@@ -36,6 +36,7 @@ a {
    text-align: center;
    color: #FFFFFF;
 }
+
 .btn:hover {
    opacity: 0.9;
 }
@@ -181,6 +182,8 @@ a {
 /* ======== Guides ========= */
 .guide {
    margin-top: 40px;
+   background-color: orange;
+   padding-bottom: 79px;
 }
 
 .guide .row {
@@ -238,15 +241,116 @@ a {
    line-height: 1.1;
    color: #3B3C45;
 }
+
 .guide .guide-item .link {
    display: inline-block;
    padding-top: 10px;
 }
+
 .guide .guide-item .arrow {
    padding-left: 8px;
 }
+
 .guide-btn {
    margin-top: 48px;
    display: flex;
    justify-content: center;
+}
+
+/* ======== Guides ========= */
+.feature {
+   background-color: #F5FAFE;
+   margin-top: 40px;
+   height: 727px;
+}
+
+.feature .sub-title {
+   padding-top: 110px;
+   font-weight: 600;
+   font-size: 3.5rem;
+   line-height: 1;
+   color: #000339;
+}
+
+.feature .row {
+   display: flex;
+   justify-content: space-between;
+}
+
+.feature .row .desc {
+   font-weight: 400;
+   margin-top: 15px;
+   font-size: 1.6rem;
+   line-height: 1.88;
+   color: #5A6473;
+}
+
+.feature .link {
+   margin-top: 18px;
+   display: flex;
+   font-weight: 600;
+   font-size: 18px;
+   color: #0689FF;
+   align-items: center;
+}
+
+.feature span {
+   margin-right: 8px;
+}
+
+.feature .list {
+   display: flex;
+   margin-top: 70px;
+   gap: 30px;
+
+}
+
+.feature .item {
+   flex: 1;
+   background-color: #fff;
+   border-radius: 12px;
+}
+
+.feature .item .thumb {
+   width: 100%;
+   height: 227px;
+   object-fit: cover;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+}
+
+.feature .item .title {
+   margin-top: 17px;
+   margin-left: 20px;
+   font-weight: 600;
+   font-size: 2rem;
+   line-height: 1;
+   /* text-align: center; */
+   color: #000339;
+}
+
+.feature .item .desc {
+   margin-top: 11px;
+   margin-left: 20px;
+   font-weight: 500;
+   font-size: 1.4rem;
+   line-height: 1.5;
+   color: #A3A6AB;
+}
+
+.feature .info {
+   display: flex;
+   margin-left: 20px;
+   margin-top: 21px;
+   margin-bottom: 26px;
+   align-items: center;
+}
+
+.feature .info span {
+   margin-left: 8px;
+   font-size: 14px;
+   letter-spacing: 0.01em;
+   color: #4D4D52;
+   margin-right: 22px;
+
 }
