@@ -1,10 +1,119 @@
 * {
    box-sizing: border-box;
 }
+
 html {
    font-size: 62.5%;
 }
+
 body {
    font-size: 1.6rem;
-   font-family: "Poppins";
+   font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+.content {
+   width: 1110px;
+   max-width: calc(100% - 48px);
+   margin-left: auto;
+   margin-right: auto;
+}
+
+a {
+   text-decoration: none;
+}
+
+.btn {
+   display: inline-block;
+   padding: 15px 17px;
+   min-width: 98px;
+   background: #0f1b4c;
+   border-radius: 8px;
+   font-weight: 500;
+   font-size: 1.4rem;
+   line-height: 1.5;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+/* Header */
+.header {
+   position: relative;
+   height: 100vh;
+   background-color: #e6f0ff;
+}
+
+.navbar {
+   display: flex;
+   padding-top: 38px;
+   align-items: center;
+}
+
+.navbar ul {
+   display: flex;
+   padding-left: 64.5px;
+   gap: 30px;
+}
+
+.navbar ul a {
+   font-weight: 500;
+   font-size: 1.4rem;
+   line-height: 1.5;
+   color: #4f5361;
+}
+
+.navbar .action {
+   margin-left: auto;
+}
+
+.navbar .action-link {
+   font-weight: 500;
+   font-size: 1.4rem;
+   line-height: 1.5;
+   color: #0F1B4C;
+}
+
+.navbar .action-btn {
+   padding: 10px 16px;
+   margin-left: 18px;
+}
+
+/* Hero */
+.hero {
+   margin-top: 130px;
+   width: 560px;
+}
+
+.hero .sub-title {
+   font-weight: 500;
+   font-size: 1.8rem;
+   line-height: 1.5;
+   letter-spacing: 0.01em;
+   color: #687691;
+}
+
+.hero .title {
+   margin-top: 8px;
+   font-weight: 700;
+   font-size: 6.2rem;
+   line-height: 1.19;
+   color: #000336;
+}
+
+.hero .desc {
+   font-weight: 400;
+   font-size: 1.8rem;
+   line-height: 1.78;
+   color: #5A6473;
+   margin-top: 30px;
+}
+
+.hero .btn {
+   margin-top: 40px;
+   font-size: 1.3rem;
+}
+.hero .image {
+   position: absolute;
+   right: calc((100vw - 1110px)/2 - 100px);
+   bottom: 0;
 }
