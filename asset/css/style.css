@@ -485,7 +485,7 @@ a {
 .stat .row-qty {
    display: flex;
    position: absolute;
-   left: 280px;
+   left: 465px;
    gap: 220px;
    justify-content: space-between;
    margin-top: 120px;
@@ -504,5 +504,51 @@ a {
    font-size: 1.5rem;
    line-height: 1.5;
    color: #7B8087;
+}
 
+/* ======== Subscribe ========= */
+.subs {
+   margin-top: 280px;
+}
+
+.subs .body {
+   display: flex;
+   height: 370px;
+   background-color: #063183;
+   align-items: center;
+   border-radius: 20px;
+   position: relative;
+}
+
+.subs .info {
+   padding: 0 80px;
+}
+
+.subs .title {
+   font-weight: 600;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color: #FFFFFF;
+}
+
+.subs .desc {
+   font-weight: 400;
+   font-size: 1.6rem;
+   line-height: 1.88;
+   color: #FFFFFF;
+   opacity: 0.75;
+}
+
+.subs .btn {
+   font-size: 13px;
+   line-height: 20px;
+   padding: 14px 43px 16px;
+   color: #002366;
+   margin-top: 20px;
+   background-color: #FFFFFF;
+}
+.subs .image {
+   position: absolute;
+   top: -37px;
+   left: 700px; 
 }
