@@ -48,6 +48,7 @@ a {
    top: -26px;
    z-index: 1;
 }
+
 .hero-wrap {
    position: relative;
    height: 100vh;
@@ -305,9 +306,10 @@ a {
 }
 
 .feature .list {
-   display: flex;
+   display: grid;
    margin-top: 70px;
    gap: 30px;
+   grid-template-columns: repeat(3, 1fr);
 
 }
 
@@ -362,7 +364,7 @@ a {
 
 /* ======== Stats ========= */
 .stat {
-   margin-top: 75px;
+   margin-top: 140px;
 }
 
 .stat .content {
@@ -377,7 +379,6 @@ a {
 .stat .row {
    display: flex;
    gap: 165px;
-
 }
 
 .stat .image-main {
@@ -491,10 +492,11 @@ a {
 }
 
 .row-qty {
-   display: inline-block;
+   display: flex;
    margin-top: 110px;
    position: absolute;
    left: 84px;
+   gap: 150px;
 
 }
 
@@ -561,7 +563,7 @@ a {
 
 /* ======== Footer ========= */
 .footer {
-   margin-top: 100px;
+   margin-top: 253px;
    padding-bottom: 58px;
 }
 
